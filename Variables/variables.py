@@ -23,4 +23,9 @@ print(age)
 print(greeting + age)
 
 a = 12
+b = 3
+print(a + b / 3 -4 * 12) # should not be -35. This occures because of opperator precedence. This goes as follows:  B / 3 then 4 * 12
+print (8 / 2 * 3)
+print (8*3 /2)
 
+print ((((a+b) /3 ) -4) *12)
